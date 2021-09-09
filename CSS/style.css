@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@500&family=Teko:wght@700&display=swap');
+:root {
+    --headings: #3500D3;
+    --text: #5AB9EA;
+    --background: #0C0032;
+    --headings-font-familiy: 'Teko', sans-serif;
+    --text-font-familiy: 'Azeret Mono', monospace;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--background);
+    text-align: center;
+    font-family: var(--text-font-familiy);
+    color: var(--text);
+}
+
+h2 {
+    color: var(--headings);
+    font-family: var(--headings-font-familiy);
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+p {
+    line-height: 2;
+}
+hr {
+    border: dotted var(--text) 16px;
+    width: 10%;
+    border-bottom: none;
+    margin: 5rem auto;
+}
+.middle-container {
+    margin: 5rem 0;
+}
+.profile-image {
+    width: 400;
+    border-radius: 50%;
+}
+/*h1 {
+    font-family: var(--headings-font-familiy);
+}*/
