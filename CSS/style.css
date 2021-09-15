@@ -79,6 +79,45 @@ hr {
     width: 35%;
     float: right;
 }
+
+.btn {
+    background-color: #490cd6;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .btn:hover {
+
+  }
+  .btn:visited {
+    
+  }
+
+  .bottom-container {
+
+  }
+
+  .bottom-link {
+      display: inline-block;
+      margin: 1rem;
+  }
+  .li-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+.li-wrapper i, a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: var(--text);
+}
+.copyright {
+    margin: 5rem;
+}
 /*h1 {
     font-family: var(--headings-font-familiy);
 }*/
